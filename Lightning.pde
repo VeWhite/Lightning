@@ -7,7 +7,7 @@ void setup()
 {
   size(300,300);
   strokeWeight(5);
-  background(0,0,0);
+  background(0,0,50);
 }
 void draw()
 {
@@ -23,6 +23,7 @@ startY = endY;
 }
 void mousePressed()
 {
+background(0, 0, 50);
 startX = 150;
 startY = 0;
 endX = 150;

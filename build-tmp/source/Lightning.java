@@ -23,7 +23,7 @@ public void setup()
 {
   size(300,300);
   strokeWeight(5);
-  background(0,0,0);
+  background(0,0,50);
 }
 public void draw()
 {
@@ -39,6 +39,7 @@ startY = endY;
 }
 public void mousePressed()
 {
+background(0, 0, 50);
 startX = 150;
 startY = 0;
 endX = 150;
